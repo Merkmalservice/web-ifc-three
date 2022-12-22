@@ -1,5 +1,5 @@
 import { IfcEventData, IfcWorkerAPI, WebIfcWorkerAPI, WorkerAPIs } from '../BaseDefinitions';
-import { IfcAPI } from 'web-ifc';
+import { IfcAPI } from '@ifc-js/web-ifc';
 import { Serializer } from '../serializer/Serializer';
 
 export class WebIfcWorker implements WebIfcWorkerAPI {

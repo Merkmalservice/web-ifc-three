@@ -1,5 +1,5 @@
 import { SerializedIfcGeometry } from '../BaseDefinitions';
-import { IfcGeometry as WebIfcIfcGeometry } from 'web-ifc';
+import { IfcGeometry as WebIfcIfcGeometry } from '@ifc-js/web-ifc';
 
 export class IfcGeometry implements WebIfcIfcGeometry {
     private readonly _GetVertexData: number;

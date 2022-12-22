@@ -6,7 +6,7 @@ import {
     WorkerActions,
     WorkerAPIs
 } from '../BaseDefinitions';
-import { FlatMesh, IfcGeometry, LoaderError, LoaderSettings, RawLineData, Vector } from 'web-ifc';
+import { FlatMesh, IfcGeometry, LoaderError, LoaderSettings, RawLineData, Vector } from '@ifc-js/web-ifc';
 import { IFCWorkerHandler } from '../IFCWorkerHandler';
 import { Serializer } from '../serializer/Serializer';
 

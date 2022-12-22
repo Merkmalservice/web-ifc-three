@@ -1,4 +1,4 @@
-import { Vector as WebIfcVector, IfcGeometry as WebIfcIfcGeometry, FlatMesh as WebIfcFlatMesh } from 'web-ifc';
+import { Vector as WebIfcVector, IfcGeometry as WebIfcIfcGeometry, FlatMesh as WebIfcFlatMesh } from '@ifc-js/web-ifc';
 import { SerializedFlatMesh, SerializedIfcGeometry, SerializedVector } from '../BaseDefinitions';
 import { Vector } from './Vector';
 import { IfcGeometry } from './IfcGeometry';

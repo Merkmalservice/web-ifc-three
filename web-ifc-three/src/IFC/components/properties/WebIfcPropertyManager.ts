@@ -1,5 +1,5 @@
 import { BasePropertyManager } from './BasePropertyManager';
-import { IFCPROJECT } from 'web-ifc';
+import { IFCPROJECT } from '@ifc-js/web-ifc';
 import { pName } from '../../BaseDefinitions';
 import { PropertyAPI } from './BaseDefinitions';
 import { IfcElements } from '../IFCElementsMap';

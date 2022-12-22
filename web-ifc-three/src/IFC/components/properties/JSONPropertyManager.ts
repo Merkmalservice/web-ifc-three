@@ -1,7 +1,7 @@
 import { IfcTypesMap } from '../IfcTypesMap';
 import { JSONObject, pName } from '../../BaseDefinitions';
 import { BasePropertyManager } from './BasePropertyManager';
-import { IFCPROJECT } from 'web-ifc';
+import { IFCPROJECT } from '@ifc-js/web-ifc';
 import { PropertyAPI } from './BaseDefinitions';
 
 export class JSONPropertyManager extends BasePropertyManager implements PropertyAPI {

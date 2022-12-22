@@ -1,4 +1,4 @@
-import * as WebIFC from 'web-ifc';
+import * as WebIFC from '@ifc-js/web-ifc';
 import { IFCParser, ParserAPI, ParserProgress } from './IFCParser';
 import { SubsetManager } from './subsets/SubsetManager';
 import { PropertyManager } from './properties/PropertyManager';
@@ -7,7 +7,7 @@ import { SubsetConfig, IfcState, JSONObject } from '../BaseDefinitions';
 import {BufferGeometry, Material, Matrix4, Scene} from 'three';
 import { IFCModel } from './IFCModel';
 import { BvhManager } from './BvhManager';
-import { LoaderSettings } from 'web-ifc';
+import { LoaderSettings } from '@ifc-js/web-ifc';
 import { IFCWorkerHandler } from '../web-workers/IFCWorkerHandler';
 import { PropertyManagerAPI } from './properties/BaseDefinitions';
 import { MemoryCleaner } from './MemoryCleaner';
@@ -218,7 +218,7 @@ export class IFCManager {
      *
      * Example to get all the standard walls of a project:
      * ```js
-     * import { IFCWALLSTANDARDCASE } from 'web-ifc';
+     * import { IFCWALLSTANDARDCASE } from '@ifc-js/web-ifc';
      * const walls = ifcLoader.getAllItemsOfType(IFCWALLSTANDARDCASE);
      * ```
      * @modelID ID of the IFC model.

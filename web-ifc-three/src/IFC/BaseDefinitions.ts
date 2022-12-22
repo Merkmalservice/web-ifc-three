@@ -9,7 +9,7 @@ import {
     IFCRELCONTAINEDINSPATIALSTRUCTURE,
     IFCRELDEFINESBYPROPERTIES,
     IFCRELDEFINESBYTYPE, LoaderError, LoaderSettings, RawLineData, Vector
-} from 'web-ifc';
+} from '@ifc-js/web-ifc';
 import {ParserProgress} from "./components/IFCParser";
 
 export const IdAttrName = 'expressID';

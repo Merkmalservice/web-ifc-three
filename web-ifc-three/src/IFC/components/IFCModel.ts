@@ -83,7 +83,7 @@ export class IFCModel extends Mesh {
      *
      * Example to get all the standard walls of a project:
      * ```js
-     * import { IFCWALLSTANDARDCASE } from 'web-ifc';
+     * import { IFCWALLSTANDARDCASE } from '@ifc-js/web-ifc';
      * const walls = ifcLoader.getAllItemsOfType(IFCWALLSTANDARDCASE);
      * ```
      * @type The type of IFC items to get.

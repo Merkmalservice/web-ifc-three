@@ -7,7 +7,7 @@ import {
     FlatMesh,
     IFCOPENINGELEMENT,
     IFCPRODUCTDEFINITIONSHAPE
-} from 'web-ifc';
+} from '@ifc-js/web-ifc';
 import { IfcState, IfcMesh } from '../BaseDefinitions';
 import {
     Color,

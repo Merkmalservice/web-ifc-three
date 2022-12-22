@@ -1,5 +1,5 @@
 import { SerializedVector } from '../BaseDefinitions';
-import { Vector as WebIfcVector } from 'web-ifc';
+import { Vector as WebIfcVector } from '@ifc-js/web-ifc';
 
 export class Vector<T> implements WebIfcVector<T> {
     private readonly _size: number;

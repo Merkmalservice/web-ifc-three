@@ -1,5 +1,5 @@
 import { SerializedVector } from '../BaseDefinitions';
-import { FlatMesh as WebIfcFlatMesh, Vector as WebIfcVector } from 'web-ifc';
+import { FlatMesh as WebIfcFlatMesh, Vector as WebIfcVector } from '@ifc-js/web-ifc';
 import { Serializer } from './Serializer';
 
 export class FlatMeshVector implements WebIfcVector<WebIfcFlatMesh> {
